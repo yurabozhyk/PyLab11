@@ -14,9 +14,9 @@ turtle = Turtle("Bobo", 140, 3, Sex.MALE, 400, Species.REPTILE)
 shark = Shark("Lilo", 20, 5, Sex.FEMALE, 1000, Species.FISH)
 penguin = Penguin("Fed", 7, 2, Sex.MALE, 600, Species.BIRDS)
 
-listOfAquariumAnimal = [turtle, shark, penguin]
-manager = ZooManager(listOfAquariumAnimal)
+list_of_aquarium_animal = [turtle, shark, penguin]
+manager = ZooManager(list_of_aquarium_animal)
 
-print(manager.sortBySpeciesOfAnimal(listOfAquariumAnimal))
-print(manager.sortByVolumeOfAquarium(listOfAquariumAnimal))
-print(manager.findAquariumAnimalsOlderThan(10))
+print(manager.sort_by_species_of_animal(list_of_aquarium_animal))
+print(manager.sort_by_volume_of_aquarium(list_of_aquarium_animal))
+print(manager.find_aquarium_animal_older_than(10))
