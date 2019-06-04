@@ -8,5 +8,5 @@ class Penguin(AquariumAnimal):
                  super().__init__(name, age, year_in_zoo, sex, volume_of_aquarium,
                                   Species)
                  self.height = height
-                 self.weight = height
+                 self.weight = weight
                  self.SpeciesOfPenguin = SpeciesOfPenguin
